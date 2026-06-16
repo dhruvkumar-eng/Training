@@ -77,3 +77,5 @@ CREATIVE_ASSETS = [
 
 
 # --- WRITE YOUR CODE BELOW ---
+for item in CREATIVE_ASSETS:
+    print (item['asset_id'])
