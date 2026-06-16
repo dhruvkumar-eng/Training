@@ -79,3 +79,6 @@ CREATIVE_ASSETS = [
 # --- WRITE YOUR CODE BELOW ---
 for item in CREATIVE_ASSETS:
     print (f"ID: {item['asset_id']}, Type: {item['type']}")
+    if item['type'] == 'text':
+     print(f"ID: {item['asset_id']}, Type: {item['type']},Headline: {item['data']['headline']}")
+     
